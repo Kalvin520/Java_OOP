@@ -27,9 +27,5 @@ public abstract class Role {
     }
     public String toString(){
         return String.format("(%s , %d, %d)",this.name,this.level,this.blood);
-
-
     }
-
-
 }
