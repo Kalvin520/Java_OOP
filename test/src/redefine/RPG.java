@@ -14,7 +14,6 @@ public class RPG {
 
         drawFight(swordMan);
         drawFight(magician);
-        System.out.println("JiaKai_test");
     }
     static void drawFight(Role role){
         System.out.print(role.getName());
