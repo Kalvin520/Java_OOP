@@ -20,7 +20,7 @@ public class ArrayList {
         return elems[index];
     }
 
-    public int size() {
+    public int size() { //以收集的物件個數
         return next;
     }
 }
