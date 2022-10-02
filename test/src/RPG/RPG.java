@@ -20,6 +20,8 @@ public class RPG {
         showBlood(magician);
         drawFight(swordMan);
         drawFight(magician);
+        System.out.println(swordMan.toString());
+        System.out.println(magician.toString());
     }
     static void showBlood(Role role){
         System.out.printf("%s 血量 %d%n",role.getName(),role.getBlood());
@@ -28,4 +30,6 @@ public class RPG {
         System.out.print(role.getName());
         role.fight();
     }
+
+
 }

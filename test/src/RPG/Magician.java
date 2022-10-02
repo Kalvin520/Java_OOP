@@ -9,4 +9,8 @@ public class Magician extends Role {
     public void cure() {
         System.out.println("魔法治癒");
     }
+
+    public String toString(){
+        return String.format("魔法師 (%s, %d, %d)",this.name,this.level,this.blood);
+    }
 }

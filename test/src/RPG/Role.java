@@ -1,9 +1,9 @@
 package RPG;
 
 public abstract class Role {
-    private String name;
-    private int level;
-    private int blood;
+    protected String name;
+    protected int level;
+    protected int blood;
 
     public int getBlood(){
         return blood;
@@ -32,4 +32,5 @@ public abstract class Role {
     public void fight(){//Superclass
 
     }
+
 }
