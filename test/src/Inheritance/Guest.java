@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class Guest {
     public static void main(String[] args) {
         ArrayList names = new ArrayList();
-        
+        collectNameTo(names);
+        System.out.println("訪客名單：");
+        printUpperCase(names);
     }
     static void collectNameTo(ArrayList names){
         Scanner console = new Scanner(System.in);
