@@ -29,8 +29,7 @@ public abstract class Role {
         this.name = name;
     }
 
-    public void fight(){//Superclass
+    public abstract void fight();
 
-    }
 
 }
