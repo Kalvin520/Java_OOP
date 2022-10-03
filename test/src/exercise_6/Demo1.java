@@ -7,6 +7,6 @@ public class Demo1 {
         list.add("Justin");
         list.add("Monica");
         list.add("Irene");
-        System.out.println(list);
+        System.out.println(list.toString());
     }
 }
