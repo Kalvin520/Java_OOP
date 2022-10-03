@@ -1,4 +1,5 @@
 package InterFace_;
 
-public class Swimmer {
+public interface Swimmer {
+    public abstract void swim();
 }
