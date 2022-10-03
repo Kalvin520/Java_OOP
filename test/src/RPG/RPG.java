@@ -1,7 +1,7 @@
 package RPG;
 
 public class RPG {
-    private static Role rol;
+    private static Role role;
 
     public static void main(String[] args) {
         SwordMan swordMan = new SwordMan();
