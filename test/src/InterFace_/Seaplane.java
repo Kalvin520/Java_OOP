@@ -1,18 +1,20 @@
 package InterFace_;
 
-public class Seaplane implements Swimmer ,Flyer{
-    private String name;
+import javax.xml.namespace.QName;
 
+public class Seaplane extends Airplane implements Swimmer {
     public Seaplane(String name){
-        this.name = name;
+        super(name);
+
     }
     @Override
     public void fly() {
-        System.out.printf("海上飛機 %s 在飛 %n",name);
+        System.out.print("海上");
+        super.fly();
     }
     @Override
     public void swim(){
-        System.out.printf("海上飛機 %s 航行海面c %n",name);
+        System.out.printf("海上飛機 %s 航行海面 %n",name);
     }
 
 
