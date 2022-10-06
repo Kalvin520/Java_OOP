@@ -1,9 +1,9 @@
-interface Some2{
-    void execute();
+package Service_;
+
+interface Some2 extends Action2 { ;
     void doSome();
 }
-interface Other2{
-    void execute();
+interface Other2 extends Action2 {
     void doOther();
 }
 
