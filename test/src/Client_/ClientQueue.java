@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class ClientQueue {
     private ArrayList clients = new ArrayList();//收集連線的Client
     private ArrayList listeners = new ArrayList();//收集對ClientQueue有興趣的ClientListener
-    public void addClientListener(Client listener){//註冊ClientListener
+    public void addClientListener(ClientListener listener){//註冊ClientListener
         listeners.add(listener);
     }
 
