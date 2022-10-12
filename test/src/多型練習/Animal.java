@@ -6,6 +6,10 @@ public abstract class Animal{
     public Animal(String name) {
         this.name = name;
     }
+
+    protected Animal() {
+    }
+
     public abstract void talk();
 
     public abstract void eat();
