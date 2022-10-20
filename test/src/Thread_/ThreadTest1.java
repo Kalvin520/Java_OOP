@@ -1,6 +1,6 @@
 package Thread_;
 
-public class ThreadTest1 extends Thread implements Runnable{
+public class ThreadTest1 extends Thread {
     private String message;
     public ThreadTest1(String message){
         this.message = message;
